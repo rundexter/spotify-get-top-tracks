@@ -89,20 +89,6 @@ module.exports = {
     },
 
     /**
-     * Send api request.
-     *
-     * @param method
-     * @param api
-     * @param options
-     * @param auth
-     * @param callback
-     */
-    apiRequest: function (method, api, options, auth, callback) {
-
-        request[method]({url: api, form: options, auth: auth, json: true}, callback);
-    },
-
-    /**
      * The main entry point for the Dexter module.
      *
      * @param {AppStep} step Accessor for the configuration for the step using this module.  Use step.input('{key}') to retrieve input data.
