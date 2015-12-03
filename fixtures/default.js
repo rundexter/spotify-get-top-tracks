@@ -63,7 +63,8 @@ module.exports = _.merge({
              */
             input: {
                 //Replace VAR1 with the name of an expected input, and add more inputs as needed.
-                VAR1: 'foo'
+                id: '43ZHCT0cAZBISjO8DG9PnE',
+                country: 'SE'
             }
         }
     }
