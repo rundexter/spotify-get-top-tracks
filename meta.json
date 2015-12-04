@@ -20,5 +20,5 @@
             "title":"Array of artists"
         }
     ],
-    "title": "Spotify Get Related Artists" /* Required.A display name for the module */
+    "title": "Spotify Get Artist Top Tracks" /* Required.A display name for the module */
 }
