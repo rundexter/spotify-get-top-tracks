@@ -20,5 +20,6 @@
             "title":"Array of artists"
         }
     ],
+    "icon": "spotify",
     "title": "Spotify Get Artist Top Tracks" /* Required.A display name for the module */
 }
