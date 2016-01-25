@@ -16,10 +16,29 @@
     //Required. Outputs the module emits.
     "outputs": [
         {
-            "id": "body",
-            "title":"Array of artists"
+            "id": "name",
+            "title":"Name"
+        },
+        {
+            "id": "album",
+            "title":"Album"
+        },
+        {
+            "id": "artists",
+            "title":"Artists"
+        },
+        {
+            "id": "external_urls",
+            "title":"URL"
+        },
+        {
+            "id": "uri",
+            "title":"URI"
         }
     ],
+    "providers": [{
+        "name": "spotify"
+    }],
     "icon": "spotify",
     "title": "Spotify Get Artist Top Tracks" /* Required.A display name for the module */
 }
